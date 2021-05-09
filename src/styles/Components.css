@@ -1,0 +1,48 @@
+/* nav button styling */
+.NavButton {
+  text-align: left;
+  float: left;
+  background-color: #eea02c;
+  width: 70px;
+  height: 20px;
+  border-radius: 0px;
+  font-size: small;
+}
+
+/* styling for the navigation pane as a whole */
+.NavPane {
+  /* show nav buttons in a column*/
+  display: flex;
+  flex-direction: column;
+
+  /* align on left side of the page */
+  float: left;
+  width: max-content;
+
+  /* give space between this pane and page content */
+  padding-right: 50px;
+}
+
+/* styling for the text that appears above nav buttons */
+.NameText {
+  /* give a little space between text and buttons*/
+  padding-bottom: 2px;
+
+  /* set font size */
+  font-size: small;
+}
+
+/* container for nav buttons */
+.NavButtonContainer {
+  /* give space between buttons */
+  margin-bottom: 1px;
+}
+
+/* element in list of books */
+.LinkEl {
+  /* be consistent with content body text*/
+  font-size: small;
+
+  /* give space between list elements */
+  margin-bottom: 5px;
+}

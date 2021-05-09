@@ -1,0 +1,57 @@
+/* Site-wide styling */
+.App {
+  /* border for the entire site */
+  padding: 10px 30px 30px 5px; 
+
+  /* organize main components in a row */
+  display: flex;
+  flex-direction: column; 
+
+  /* these came with the initial project... keeping them for now */
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+
+  /* plain backgroun for the site */
+  background-color: #ffffff; 
+}
+
+.AppBody {
+  /* organize main components in a row */
+  display: flex;
+  flex-direction: row; 
+}
+
+/* Header text for a page */
+.ContentTitle {
+  text-align: left;
+  font-size: medium;
+  padding-bottom: 5px;
+}
+
+/* Body text for a page */
+.ContentText {
+  text-align: left;
+  font-size: small;
+}
+
+/* Body list for a page */
+.ContentList {
+  /* give some space between this and surrounding elements */
+  margin-top: 8px;
+  margin-bottom: 20px;
+
+  /* stack elements */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main page content */
+.Content {
+  /* keep content in a maintainable width */
+  width: 500px;
+  
+  /* stack elements */
+  display: flex;
+  flex-direction: column;
+}
+
