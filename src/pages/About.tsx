@@ -6,7 +6,7 @@ function About () {
     return (
       <div className="Content">
           <div className="ContentTitle">About me</div>
-          <img src="/stone_current_selfie.JPEG" alt=""width="250px"/>
+          <img src="/stone_current_selfie.jpeg" alt=""width="250px"/>
           <div className="ContentText">
             <p>I currently live in Madison, Wisconsin, and I grew up in Eau Claire, WI. 
               I went to college at Pomona College in Claremont, CA where I double majored in Computer Science and Mathematics.</p>
