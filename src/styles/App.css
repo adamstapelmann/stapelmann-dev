@@ -3,7 +3,7 @@
   /* border for the entire site */
   padding: 10px 30px 30px 5px; 
 
-  /* organize main components in a row */
+  /* organize main components in a column */
   display: flex;
   flex-direction: column; 
 
@@ -11,7 +11,7 @@
   font-size: calc(10px + 2vmin);
   min-height: 100vh;
 
-  /* plain backgroun for the site */
+  /* plain background for the site */
   background-color: #ffffff; 
 }
 

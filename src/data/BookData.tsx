@@ -32,6 +32,7 @@ module BookData {
     unread.push({title: "The Big Score", link: "https://www.amazon.com/dp/0385183518"});
     unread.push({title: "Delears of Lightning", link: "https://www.amazon.com/dp/0887308910"});
     unread.push({title: "On the Shortness of Life", link: "https://www.amazon.com/dp/0143036327"});
+    unread.push({title: "Feynman Lectures on Computation", link: "https://www.amazon.com/dp/0201489910"})
 
     // used to sort books alphabetically
     function compareBooks(b1: Link, b2: Link) {

@@ -11,15 +11,15 @@ module LinkData {
         desc: "Website for Venturing Crew 896 (which I also made)."});
     links.push({title: "bitbo.io", link: "https://bitbo.io/", desc: "Live bitcoin price tracker. It includes a logarithmic view, which is helpful."});
     links.push({title: "something like olivia", link: "https://www.youtube.com/watch?v=izkqPdVAdL4&ab_channel=johnmayerVEVO",
-        desc: "Some of the most enlightened guitar playing around."})
+        desc: "Some of the most enlightened guitar playing around."});
 
 
-    // used to sort books alphabetically
+    // used to sort links alphabetically
     function compareLinks(b1: Link, b2: Link) {
         return b1.title.toLowerCase() < b2.title.toLowerCase() ? -1 : 1;
     }
 
-    // returns the list of book recommendations
+    // returns the list of links
     export function getLinks() {
         return links.sort(compareLinks);
     }
