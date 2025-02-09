@@ -9,7 +9,6 @@ function NavPane () {
         <div className="NavPane">
           <NavButton text="Projects" link="/projects" />
           <NavButton text="About" link="/about" />
-          <NavButton text="Links" link="/links" />
           <NavButtonExternal text="Source" link="https://github.com/adamstapelmann/stapelmann-dev" />
         </div>
     );
