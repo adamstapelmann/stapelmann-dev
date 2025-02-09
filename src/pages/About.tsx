@@ -6,7 +6,7 @@ function About () {
       <div className="Content">
         <div className="ContentTitle">About me</div>
         <div className="ContentText">
-          <img src="/stone_current_selfie.jpeg" alt="" className="AboutImage" />
+          <img src="/brick_wall_selfie_square.JPG" alt="Adam Stapelmann" className="AboutImage" />
           <div className="ContentSection">
             <h3>Background</h3>
             <p>Wisconsin native, now based in Minneapolis. I studied Math and Computer Science at Pomona College 
