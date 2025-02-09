@@ -1,57 +1,104 @@
+:root {
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --background-color: #f8fafc;
+  --text-color: #1e293b;
+  --secondary-text: #64748b;
+  --nav-width: 240px;
+  --content-max-width: 800px;
+  --header-height: 64px;
+}
+
 /* Site-wide styling */
 .App {
-  /* border for the entire site */
-  padding: 10px 30px 30px 5px; 
-
-  /* organize main components in a column */
+  padding: 0;
   display: flex;
-  flex-direction: column; 
-
-  /* these came with the initial project... keeping them for now */
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
   min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
 
-  /* plain background for the site */
-  background-color: #ffffff; 
+.NameText {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background: white;
+  color: var(--text-color);
+  border-bottom: 1px solid #e2e8f0;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .AppBody {
-  /* organize main components in a row */
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* Header text for a page */
 .ContentTitle {
-  text-align: left;
-  font-size: medium;
-  padding-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
 }
 
 /* Body text for a page */
 .ContentText {
-  text-align: left;
-  font-size: small;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--secondary-text);
+}
+
+.ContentText p {
+  margin-bottom: 1.25rem;
 }
 
 /* Body list for a page */
 .ContentList {
-  /* give some space between this and surrounding elements */
-  margin-top: 8px;
-  margin-bottom: 20px;
-
-  /* stack elements */
+  margin: 1.5rem 0;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
 /* Main page content */
 .Content {
-  /* keep content in a maintainable width */
-  width: 500px;
+  max-width: var(--content-max-width);
+  width: 100%;
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .AppBody {
+    flex-direction: column;
+    padding: 1rem;
+  }
   
-  /* stack elements */
-  display: flex;
-  flex-direction: column;
+  .Content {
+    padding: 1rem;
+  }
+  
+  .NameText {
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
 }
 
