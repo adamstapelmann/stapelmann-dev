@@ -152,3 +152,42 @@
   }
 }
 
+/* Project cards */
+.ProjectCard {
+  background: var(--background-color);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease;
+}
+
+.ProjectCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.ProjectCard h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.ProjectDescription {
+  color: var(--secondary-text);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.ProjectLink {
+  display: inline-block;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.ProjectLink:hover {
+  color: var(--primary-hover);
+}
+
