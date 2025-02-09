@@ -1,23 +1,16 @@
-import React from "react";
-import {Link} from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Components.css';
 
-interface Props {
-    text: string; /* button text */
-    link: string; /* link address */
-
+interface NavButtonProps {
+    text: string;
+    link: string;
 }
 
-/* Navigation button that launches an internal page */
-const NavButton: React.FC<Props> = ({
-    text,
-    link
-}) => {
+function NavButton({ text, link }: NavButtonProps) {
     return (
         <Link to={link} className="NavButtonContainer">
-            <button className="NavButton">
-                {text}
-            </button>
+            <button className="NavButton">{text}</button>
         </Link>
     );
 }

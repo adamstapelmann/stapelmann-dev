@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Links from './pages/Links';  // Keeping import for future use
 
 const Main = () => {
   return (

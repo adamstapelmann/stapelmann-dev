@@ -5,27 +5,54 @@ function Projects() {
     return (
         <div className="Content">
             <div className="ContentTitle">Projects</div>
-            <div className="ContentText">
+            <div className="ProjectList">
                 <div className="ProjectCard">
-                    <h3>domainideas.ai</h3>
-                    <p className="ProjectDescription">
-                        An AI-powered domain name generator that helps users discover available domain names 
-                        based on their ideas and requirements. Users can generate creative domain suggestions 
-                        and instantly check their availability.
-                    </p>
-                    <a href="https://domainideas.ai" target="_blank" rel="noopener noreferrer" 
-                       className="ProjectLink">Visit domainideas.ai →</a>
+                    <div className="ProjectInfo">
+                        <a href="https://domainideas.ai" className="ProjectTitle" target="_blank" rel="noopener noreferrer">domainideas.ai</a>
+                    </div>
+                    <div className="ProjectMeta">
+                        <a href="https://domainideas.ai" className="ProjectLink" target="_blank" rel="noopener noreferrer">
+                            Visit →
+                        </a>
+                    </div>
+                </div>
+
+                <div className="ProjectDescription">
+                    An AI-powered domain name generator that helps users discover available domain names 
+                    based on their ideas and requirements. Users can generate creative domain suggestions 
+                    and instantly check their availability.
                 </div>
 
                 <div className="ProjectCard">
-                    <h3>wealthwatch.app</h3>
-                    <p className="ProjectDescription">
-                        A personal finance visualization tool that provides users with detailed insights into 
-                        their net worth. Users can track various assets and see comprehensive breakdowns and 
-                        visualizations of their financial portfolio.
-                    </p>
-                    <a href="https://wealthwatch.app" target="_blank" rel="noopener noreferrer" 
-                       className="ProjectLink">Visit wealthwatch.app →</a>
+                    <div className="ProjectInfo">
+                        <a href="https://wealthwatch.app" className="ProjectTitle" target="_blank" rel="noopener noreferrer">wealthwatch.app</a>
+                    </div>
+                    <div className="ProjectMeta">
+                        <a href="https://wealthwatch.app" className="ProjectLink" target="_blank" rel="noopener noreferrer">
+                            Visit →
+                        </a>
+                    </div>
+                </div>
+
+                <div className="ProjectDescription">
+                    A personal finance visualization tool that provides users with detailed insights into 
+                    their net worth. Users can track various assets and see comprehensive breakdowns and 
+                    visualizations of their financial portfolio.
+                </div>
+
+                <div className="ProjectCard">
+                    <div className="ProjectInfo">
+                        <a href="https://stapelmann.dev" className="ProjectTitle" target="_blank" rel="noopener noreferrer">stapelmann.dev</a>
+                    </div>
+                    <div className="ProjectMeta">
+                        <a href="https://stapelmann.dev" className="ProjectLink" target="_blank" rel="noopener noreferrer">
+                            Visit →
+                        </a>
+                    </div>
+                </div>
+
+                <div className="ProjectDescription">
+                    This website.
                 </div>
             </div>
         </div>

@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './styles/App.css';
-import {useEffect} from 'react';
 import Main from './Main';
 import NavPane from './components/NavPane';
 
 function App() {
   useEffect(() => {
-      /* Set window/tab text */
-    document.title = "Adam Stapelmann"
-  });
+    document.title = "Adam Stapelmann";
+  }, []);
+
   return (
     <div className="App">
-      <div className="NameText">
-        Adam Stapelmann
-      </div>
+      <header className="Header">
+        <div className="HeaderContent">
+          <Link to="/" className="HeaderTitle">Adam Stapelmann</Link>
+          <nav className="HeaderNav">
+            <NavPane />
+          </nav>
+        </div>
+      </header>
       <div className="AppBody">
-        <NavPane/>
         <Main />
       </div>
     </div>
