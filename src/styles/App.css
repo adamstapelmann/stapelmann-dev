@@ -1,12 +1,13 @@
 :root {
-  --primary-color: #2563eb;
-  --primary-hover: #1d4ed8;
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
   --background-color: #f8fafc;
   --text-color: #1e293b;
   --secondary-text: #64748b;
   --nav-width: 240px;
   --content-max-width: 800px;
   --header-height: 64px;
+  --timeline-color: #e2e8f0;
 }
 
 /* Site-wide styling */
@@ -50,9 +51,9 @@
 
 /* Header text for a page */
 .ContentTitle {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
   color: var(--text-color);
 }
 
@@ -80,9 +81,53 @@
   max-width: var(--content-max-width);
   width: 100%;
   background: white;
-  padding: 2rem;
-  border-radius: 0.5rem;
+  padding: 3rem;
+  border-radius: 0.75rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Content img {
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Content sections */
+.ContentSection {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background: var(--background-color);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.ContentSection:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.ContentSection h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.ContentSection p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--secondary-text);
+  margin: 0;
+}
+
+.ContentText > p:last-child {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--timeline-color);
+  color: var(--secondary-text);
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* Responsive design */
@@ -93,7 +138,12 @@
   }
   
   .Content {
-    padding: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .ContentTitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
   
   .NameText {
