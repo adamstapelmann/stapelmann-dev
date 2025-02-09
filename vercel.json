@@ -9,6 +9,10 @@
       "dest": "/static/$1"
     },
     {
+      "src": "/(.*\\.(jpg|jpeg|png|gif|ico|json))",
+      "dest": "/$1"
+    },
+    {
       "src": "/favicon.ico",
       "dest": "/favicon.ico"
     },
