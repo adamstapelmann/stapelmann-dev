@@ -25,6 +25,22 @@ function Projects() {
 
                 <div className="ProjectCard">
                     <div className="ProjectInfo">
+                        <a href="https://finance-toolkit.com" className="ProjectTitle" target="_blank" rel="noopener noreferrer">finance-toolkit.com</a>
+                    </div>
+                    <div className="ProjectMeta">
+                        <a href="https://finance-toolkit.com" className="ProjectLink" target="_blank" rel="noopener noreferrer">
+                            Visit →
+                        </a>
+                    </div>
+                </div>
+
+                <div className="ProjectDescription">
+                    A collection of online financial tools, such as calculators, designed to help users 
+                    with various financial planning and analysis tasks.
+                </div>
+
+                <div className="ProjectCard">
+                    <div className="ProjectInfo">
                         <a href="https://wealthwatch.app" className="ProjectTitle" target="_blank" rel="noopener noreferrer">wealthwatch.app</a>
                     </div>
                     <div className="ProjectMeta">
