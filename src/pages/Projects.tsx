@@ -57,23 +57,6 @@ function Projects() {
 
                 <div className="ProjectCard">
                     <div className="ProjectInfo">
-                        <a href="https://wealthwatch.app" className="ProjectTitle" target="_blank" rel="noopener noreferrer">wealthwatch.app</a>
-                    </div>
-                    <div className="ProjectMeta">
-                        <a href="https://wealthwatch.app" className="ProjectLink" target="_blank" rel="noopener noreferrer">
-                            Visit →
-                        </a>
-                    </div>
-                </div>
-
-                <div className="ProjectDescription">
-                    A personal finance visualization tool that provides users with detailed insights into 
-                    their net worth. Users can track various assets and see comprehensive breakdowns and 
-                    visualizations of their financial portfolio.
-                </div>
-
-                <div className="ProjectCard">
-                    <div className="ProjectInfo">
                         <a href="https://stapelmann.dev" className="ProjectTitle" target="_blank" rel="noopener noreferrer">stapelmann.dev</a>
                     </div>
                     <div className="ProjectMeta">
