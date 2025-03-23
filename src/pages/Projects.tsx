@@ -41,6 +41,22 @@ function Projects() {
 
                 <div className="ProjectCard">
                     <div className="ProjectInfo">
+                        <a href="https://clearcreektimberframers.com" className="ProjectTitle" target="_blank" rel="noopener noreferrer">clearcreektimberframers.com</a>
+                    </div>
+                    <div className="ProjectMeta">
+                        <a href="https://clearcreektimberframers.com" className="ProjectLink" target="_blank" rel="noopener noreferrer">
+                            Visit →
+                        </a>
+                    </div>
+                </div>
+
+                <div className="ProjectDescription">
+                    A custom website created for a friend's timber framing business, showcasing their craftsmanship, 
+                    services, and portfolio of completed projects.
+                </div>
+
+                <div className="ProjectCard">
+                    <div className="ProjectInfo">
                         <a href="https://wealthwatch.app" className="ProjectTitle" target="_blank" rel="noopener noreferrer">wealthwatch.app</a>
                     </div>
                     <div className="ProjectMeta">
